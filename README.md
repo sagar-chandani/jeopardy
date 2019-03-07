@@ -6,9 +6,8 @@ To calculate Inverted Term Frequecy and use that to find similarity between user
 
 # Python-flask on Pythonanywhere.com
 
-In the Jeopardy dataset, there are many text fields such as Jeopardy type, air date, score number, Questions and Answers in string format and can be used directly, but fields like keywords, genres, production companies are in list of dict format so first I have converted string to literal structure then I have extracted only necessary fields such as name.
-Other source of information are casts and characters of movies, I can use information about actors and role they played. Similarly from crew information I have only extracted name of question, answer, type of jeopardy which is good source of information.
-In the end I have constructed document for each movies that contains all the text data mentioned above.
+In the Jeopardy dataset, there are many text fields such as Jeopardy type, air date, score number, Questions and Answers in string format and can be used directly, but fields like questions, Answer and Jeopardy type are in list of dict format so first I have converted string to literal structure then I have extracted only necessary fields such as Quetion and Answer. I have only extracted name of question, answer, type of jeopardy which is good source of information.
+In the end I have constructed document for each jeopardy that contains all the text data mentioned above.
 For better results I have applied snowball stemmer.
 
 To find similarity between search query and questions and answer first I have combined the questions answer Jeopardy type fields and generated word vector of Combined data using word vectors inverted term frequency was calculated.
@@ -29,6 +28,8 @@ Now for new query we need to generate word vector of query and then calculate in
 [2] https://medium.com/greyatom/an-introduction-to-bag-of-words-in-nlp-ac967d43b428
 
 [3] https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f
+
+[4] http://www.nltk.org/howto/stem.html
 
 # React Application on Heroku
 
