@@ -20,6 +20,7 @@ class Search extends Component {
     
       handleSubmit(event) {
         browserHistory.push("/search/" + this.state.value)
+        
       }
     
       render() {
