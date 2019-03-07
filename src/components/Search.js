@@ -20,19 +20,32 @@ class Search extends Component {
     
       handleSubmit(event) {
         browserHistory.push("/search/" + this.state.value)
-        
       }
     
       render() {
         return (
-          <form onSubmit={this.handleSubmit}>
+            <div style={{backgroundColor:'#00A1FE'}}>
+            <div style={{display: 'flex',flexDirection:'column',  justifyContent: 'center', alignItems:'center', height: '100vh', backgroundColor:'#00A1FE'}}>
+            <div style={{padding:'5px' ,fontFamily:'sans-serif'}}>
+            <p style={{fontSize:'50px'}}>
+          Jeopardy
+          </p>
+          </div>
+          <div>
+          <p style={{fontSize:'40px'}}>
+          Search for the Question
+          </p>
+          </div>
+          <form  style={{ display:'contents', justifyContent: 'center',alignItems:'center'}} onSubmit={this.handleSubmit}>
             <label>
-              Name:
-              <input type="text" value={this.state.value} onChange={this.handleChange} />
+              <input style={{height:'40px', width : '400px',border:'1px solid #000',borderRadius:'10px', fontSize:'30px', padding:'4px'}} type="text" value={this.state.value} onChange={this.handleChange} />
             </label>
-            <input type="submit" value="Submit" />
+            <br />
+            <br />
+            <input style={{height:'20px', width : '150px',border:'1px solid #000',borderRadius:'10px'}}  type="submit" value="Submit" />
           </form>
-        );
+          </div>
+          </div>);
       }
 }
 
