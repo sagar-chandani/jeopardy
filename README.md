@@ -102,11 +102,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+## Heroku Deployment in 2 minutes : 
+
+https://elements.heroku.com/buildpacks/mars/create-react-app-buildpack
+
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-
 
 
 
