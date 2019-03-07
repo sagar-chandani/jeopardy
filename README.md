@@ -33,6 +33,8 @@ Now for new query we need to generate word vector of query and then calculate in
 
 [4] http://www.nltk.org/howto/stem.html
 
+[5] https://stackoverflow.com/questions/12118720/python-tf-idf-cosine-to-find-document-similarity
+
 # React Application on Heroku
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
