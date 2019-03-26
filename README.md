@@ -35,6 +35,12 @@ Now for new query we need to generate word vector of query and then calculate in
 
 [5] https://stackoverflow.com/questions/12118720/python-tf-idf-cosine-to-find-document-similarity
 
+## Challenges : 
+
+- creating pkl files to get the searcg load fast.
+- Hosting backend on Pythonanywhere
+- Linking Frontend and Backend.
+
 # React Application on Heroku
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
