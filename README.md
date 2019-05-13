@@ -1,6 +1,6 @@
 # Joepardy 
 
-[![Jeopardy Demo](http://profile.sagarchandani.uta.cloud/images/project5.jpg)](https://www.youtube.com/watch?v=gR_TfbvH3pw)
+[![Jeopardy Demo]](https://www.youtube.com/watch?v=gR_TfbvH3pw)
 
 ## Objective :
 To make a Website Implementing Search
