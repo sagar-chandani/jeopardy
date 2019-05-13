@@ -1,19 +1,28 @@
 # Joepardy 
 
 ## Objective :
+To make a Website Implementing Search
+
+
+## I hosted backend in python-flask on Linode : 
+
+In the Jeopardy dataset, there are many text fields such as Jeopardy type, air date, score number, Questions and Answers in string format and can be used directly, but fields like questions, Answer and Jeopardy type are in list of dict format so first I have converted string to literal structure then I have extracted only necessary fields such as Quetion and Answer. 
+
+# Search Implementation :
+
+## Objective :
 To calculate Inverted Term Frequecy and use that to find similarity between user's query and the questions I have in my Dataset.
+### Steps : 
+- I have only extracted name of question, answer, type of jeopardy which is good source of information.
+- In the end I have constructed document for each jeopardy that contains all the text data mentioned above.
+- For better results I have applied snowball stemmer.
+- To find similarity between search query and questions and answer first I have combined the questions answer Jeopardy type fields and generated word vector of Combined data using word vectors inverted term frequency was calculated.
+- Now for new query we need to generate word vector of query and then calculate inverted term frequency. After that we need to calculate cosine similarity between inverted term frequency of query and of each movie. Then we will find top results whose cosine similarity is maximum.
 
+# Classification Implementation :
 
-# Python-flask on Pythonanywhere.com
-
-## I hosted backend on pythonanywhere.com at : sagarchandani.pythonanywhere.com
-
-In the Jeopardy dataset, there are many text fields such as Jeopardy type, air date, score number, Questions and Answers in string format and can be used directly, but fields like questions, Answer and Jeopardy type are in list of dict format so first I have converted string to literal structure then I have extracted only necessary fields such as Quetion and Answer. I have only extracted name of question, answer, type of jeopardy which is good source of information.
-In the end I have constructed document for each jeopardy that contains all the text data mentioned above.
-For better results I have applied snowball stemmer.
-
-To find similarity between search query and questions and answer first I have combined the questions answer Jeopardy type fields and generated word vector of Combined data using word vectors inverted term frequency was calculated.
-Now for new query we need to generate word vector of query and then calculate inverted term frequency. After that we need to calculate cosine similarity between inverted term frequency of query and of each movie. Then we will find top results whose cosine similarity is maximum.
+# Recommender Implementation :
+- For Recommendation I am using 
 
 
 ## Libraries Used :
