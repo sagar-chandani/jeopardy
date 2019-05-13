@@ -2,7 +2,7 @@
 
 [![](http://img.youtube.com/vi/gR_TfbvH3pw/0.jpg)](http://www.youtube.com/watch?v=gR_TfbvH3pw "Jeopardy")
 ## Objective :
-To make a Website Implementing Search
+To make a Website Implementing Search, Classifier and Recommender
 
 
 ## I hosted backend in python-flask on Linode : 
