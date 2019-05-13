@@ -1,5 +1,7 @@
 # Joepardy 
 
+[![Jeopardy Demo](http://profile.sagarchandani.uta.cloud/images/project5.jpg)](https://www.youtube.com/watch?v=gR_TfbvH3pw)
+
 ## Objective :
 To make a Website Implementing Search
 
@@ -21,8 +23,21 @@ To calculate Inverted Term Frequecy and use that to find similarity between user
 
 # Classification Implementation :
 
+## Objective :
+The user will input some text and based on the similarity of the categories of the questions it will be classified.
+### Steps :
+- Using Naive Bayes Classification which works on probability of individual features within Document
+- After counting the Probability with each of the category, Top K results are rendered
+
 # Recommender Implementation :
-- For Recommendation I am using 
+
+## Objective  :
+To Recommend questions to the users, according to their previous searches
+
+### Steps :
+- Saved user’s searches in the localstorage of the browser
+- Get the words searched by the user
+- Passing the query and comparing the tf-ifd of the query with the query of documents
 
 
 ## Libraries Used :
@@ -50,7 +65,7 @@ To calculate Inverted Term Frequecy and use that to find similarity between user
 - Hosting backend on Pythonanywhere
 - Linking Frontend and Backend.
 
-# React Application on Heroku
+# React Application on Linode
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -116,10 +131,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 ### Deployment
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-## Heroku Deployment in 2 minutes : 
-
-https://elements.heroku.com/buildpacks/mars/create-react-app-buildpack
 
 ### `npm run build` fails to minify
 
