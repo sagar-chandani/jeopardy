@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://sagar-chandani.github.io/jeopardy/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "gh-pages": "^2.0.1",
     "history": "^3.0.0",
     "react": "^16.8.4",
